@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+.nav-box {
+    border: 1px solid lightgrey;
+    margin: 2rem;
+    border-radius: 0.25rem;
+}
+
+.node {
+    color: #699e5b
+}
+
+.hide {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.row {
+    display: flex;
+}
+
+.col15 {
+    flex: 15%;
+}
+
+.col5 {
+    flex: 5%;
+}
+
+.col10 {
+    flex: 10%;
+}
+
+.col25 {
+    flex: 24%;
+}
+
+.col20 {
+    flex: 20%;
+}
+
+.strong {
+    font-weight: 400;
+}
+
+.reg-font {
+    font-family: 'Inder', sans-serif;
+    line-height: 28px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.reg-font:hover {
+    color: inherit;
+}
+
+.larger {
+    font-size: 24px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.margin-div {
+    height: 5rem;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* https://codepen.io/rperry1886/pen/KKwbQNP */
+
+#gallerydiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-container {
+    columns: 3 260px;
+    column-gap: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.grid-container div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.grid-container div img {
+    width: 100%;
+    border-radius: 5px;
+}
+.grid-container div a > p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Colors below */
+
+#dart {
+    color: #36baf7;
+}
+
+.mandarin {
+    cursor: pointer;
+    color: #d9534f;
+}
+
+.english {
+    color: #5bc0de;
+}
+
+.grey {
+    color: #454545;
+}
+
+.nav-link {
+    color: #ff6105 !important;
+}
+
+.active {
+    color: white !important;
+    background-color: #ff6105 !important;
+}
+
+a:link, a:visited, a:active {
+    color: #ff6105; 
+}
+
+a:hover:not(.nav-item > a), a:visited:hover:not(.nav-item > a) {
+    color: #ff8f66;
+}
+
+.display-5 {
+    color: #ff6105;
+}
+
+.display-3 {
+    color: #ff6105;
+}
+
+.main-color {
+    color: #ff6105;
+    font-weight: 600;
+}
+
+#projectsdiv li > a {
+    color: black; 
+}
+
+#projectsdiv li > a:hover, a:visited:hover {
+    color: grey;
+}
+
+.my-list-group ul > li {
+    padding: 10px;
+}

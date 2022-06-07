@@ -1,0 +1,28 @@
+function galleryNav() {
+    let counter = 3;
+    $('#projectsnav').removeClass('active');
+    $('#homenav').removeClass('active');
+    $('#home').attr('hidden', true);
+    $('#projectsdiv').attr('hidden', true);
+    $('#blogdiv').removeAttr('hidden')
+    $('#blognav').addClass('active');
+    $('#homenav').off('click');
+    $('#projectsnav').off('click');
+    const blogInterval = setInterval(function () {
+        counter--;
+        if (counter === 0) {
+            clearInterval(blogInterval);
+        }
+        $('#cd').html(counter);
+    }, 1000);
+    setTimeout(openBlog, 3000);
+    setTimeout(function () {
+        $('#cd').text('3');
+        $('#homenav').addClass('active');
+        $('#home').removeAttr('hidden');
+        $('#blogdiv').attr('hidden', '')
+        $('#blognav').removeClass('active');
+        $("#projectsnav").on('click', projectsNav);
+        $("#homenav").on('click', homeNav);
+    }, 3000);
+};

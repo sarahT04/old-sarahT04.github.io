@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./lightbox2-2.11.3/src/css/lightbox.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/11406b6f64.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    <script src="./lightbox2-2.11.3/src/js/lightbox.js"></script>
+</head>
+
+<body>
+    <!-- Upper part div -->
+    <div id="introdiv">
+        <!-- Hello, Sarah pic -->
+        <div id="mainpic" class="container">
+            <div class="row align-items-center" style="margin-top: 15px">
+                <div class="col-md-6">
+                    <blockquote class="blockquote">
+                        <p class="display-3">Hello!<br />My name is Sarah :)</p>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/sarah2.jpg" alt="Sarah pic" width="444" class="rounded img-fluid float-end">
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav -->
+        <div class="nav-box">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link active white" id="homenav" href="javascript:void(0)">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="projectsnav" href="javascript:void(0)">Project Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link white" id="gallerynav" href="javascript:void(0)">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main div (Home div) -->
+    <div id="homediv">
+        <div class="container" style="margin-top: 5rem;">
+            <div class="row">
+                <h3 id="life" class="display-3">Life</h3>
+                <div class="col-md-6">
+                    <!-- Life -->
+                    <p class="reg-font">Hello, and welcome to my site. First thing first, let me introduce myself.</p>
+                    <div class="life-content">
+                        <p class="reg-font">My name is Sarah. I was born in 2004, and I am a homeschooler.<br />
+                            For all of my life, I have been homeschooled. Basically doing self-learning before it is
+                            cool now.<br />
+                        </p>
+                        <p class="reg-font">
+                            Most of my time are spent by studying, coding, or playing games. <br />
+                            My hobbies consists of: Playing inline skates, fingerstying on the guitar<i
+                                class="fa-solid fa-guitar"></i>, and listening to <span
+                                title="Check my spotify playlist here" class='pointer' id="music">music</span><i
+                                class="fa-solid fa-music"></i>.<br />
+                        </p>
+                        <p class="reg-font">Another hobby of mine would be shooting random pictures from my phone. Click
+                            this <a title="Click to view my gallery" id="click-gallery"
+                                href="javascript:void(0)">link</a><i class="fa-solid fa-circle-heart"></i> to view the
+                            gallery
+                            part of
+                            this blog, filled with one of my best memories.<br />
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+                <div class="col-md-6 text-center d-none d-md-block">
+                    <img class="life-content" src="./img/baby sarah.png" alt="Sarah's drawing of a scene" width="100%"><br />
+                </div>
+            </div>
+            <div class="row">
+                <h3 id="language" class="display-3">Language</h3>
+                <div class="col-md-6">
+                    <!-- Language -->
+                    <p class="reg-font">I love, love, love learning languages. View my language progress here!</p>
+                    <div class="language-content hide">
+                        <p class="reg-font larger">In terms of languages, I am confident of my skills in <span
+                                title="View my written blog in Mandarin" class="strong mandarin">Mandarin</span>,
+                            <span class="strong english">English</span> and <span class="strong">Indonesian</span>.
+                        </p>
+                        <h3>Mandarin Bar Progress (HSK)</h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+                                role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                        <div class="hsk-progress row">
+                            <div class="col10">
+                                <p>1</p>
+                            </div>
+                            <div class="col10">
+                                <p>2</p>
+                            </div>
+                            <div class="col15">
+                                <p>3</p>
+                            </div>
+                            <div class="col15">
+                                <p>4</p>
+                            </div>
+                            <div class="col25">
+                                <p>5</p>
+                            </div>
+                            <div class="col25">
+                                <p>6</p>
+                            </div>
+                        </div>
+                        <h3>English Bar Progress (IELTS)</h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                                role="progressbar" style="width: 63%" aria-valuenow="63" aria-valuemin="0"
+                                aria-valuemax="100"></div>
+                        </div>
+                        <div class="ielts-progress row">
+                            <div class="col15">
+                                <p>4</p>
+                            </div>
+                            <div class="col15">
+                                <p>5</p>
+                            </div>
+                            <div class="col15">
+                                <p>6</p>
+                            </div>
+                            <div class="col15">
+                                <p>7</p>
+                            </div>
+                            <div class="col15">
+                                <p>8</p>
+                            </div>
+                            <div class="col15">
+                                <p>9</p>
+                            </div>
+                        </div>
+                        <p class="reg-font larger">
+                            I also understand <span class="strong grey">Korean </span> and <span
+                                class="strong grey">Tagalog</span>.
+                        </p>
+
+                    </div>
+                    <hr />
+                </div>
+                <!-- Language pic -->
+                <div class="col-md-6 text-center d-none d-md-block">
+                    <img class="language-content hide mx-auto" src="./img/langs.png" alt="Sarah's drawing of a scene"
+                        width="100%"><br />
+                </div>
+            </div>
+            <div class="row">
+                <h3 id="coding" class="display-3">Coding</h3>
+                <div class="col-md-6">
+                    <!-- Coding -->
+                    <p class="reg-font">Some background story on my coding journey.</p>
+                    <div class="coding-content hide">
+                        <p class="reg-font mt-2">It was late December. I had a fever and was ultimately bored with studying. 
+                            A good friend of mine was showing off a program he made from Python. He showed me some resources
+                            on where to learn coding online and independently. The first resource I looked was from
+                            FreeCodeCamp's collaboration with Mike, a video titled <em>"Learn Python - Full Course for Beginners"</em>
+                        </p>
+                        <p class="reg-font">Since <span id="christmas" title="First project." class="pointer"
+                                style="color: green;">Christmas</span> 2020, I
+                            have been fiddling around with backend coding. Making small programs,
+                            games, and utilities to help me with studies such as Math/Physics stuffs</p>
+                        <p class="reg-font">My main language is <span class="strong"><span
+                                    style="color: #376f9e;">Pyt</span><span style="color: #ffd243;">hon</span></span>
+                            and I am comfortable in <span class="strong" style="color: #f7df1e;">JS</span>.
+                            But I've also learned other languages such as <span id="node">Node.js</span>, <span id="dart">Dart/Flutter</span> for
+                            multi-app development, and C#.
+                        </p>
+                        <p class="reg-font">So far on my journey, I have learned introductional level of Cyber Security,
+                            Web
+                            development with Django from Harvard's CS50,
+                            some stuffs in Machine Learning (mostly NLP from Coursera), and
+                            some Dynamic Programming and DS/Algorithms.
+                        </p>
+                    </div>
+                </div>
+                <!-- Code pics -->
+                <div class="col-md-6 text-center d-none d-md-block">
+                    <img class="coding-content hide" src="./img/code_py.png" alt="Sarah's drawing of a scene"
+                        width="70%"><br />
+                    <img class="my-3 coding-content hide" src="./img/code langs.png" alt="Sarah's drawing of coding"
+                        width="70%"><br />
+                </div>
+            </div>
+        </div>
+
+        <!-- Works div -->
+        <div id="worksdiv" class="container my-3 mt-5">
+            <div class="text-center">
+                <p class="display-5 main-color">Some of my works</p>
+            </div>
+            <div class="d-flex align-items-center row mt-5">
+                <!-- CLI -->
+                <div class="col-md-6" id="cli-gif">
+                    <img src="./img/CLIgif.gif" width="100%" alt="gif of CLI implementation">
+                </div>
+                <div id="cli-div" class="col-md-6 text-end">
+                    <p class="display-5 mt-1">CLI Scheduler</p>
+                    <div id="cli-desc">
+                        <p class="reg-font text-end">
+                            CLI Scheduler, like the name suggests, is a terminal/CMD implementation to see, add, and
+                            delete your schedule all in a single line. This project came up to me when I first started
+                            using github.
+                            I love the one-line way of doing every command, and so I thought "Well, a CLI to schedule my
+                            stuffs won't be so hard, huh". Using JSON and Python, this was written with CRUD (well
+                            technically CRD) in mind.
+                        </p>
+                        <div class="d-flex justify-content-around">
+                            <a title="My blog documentation" target="_blank"
+                                href="https://sarahsradio.wordpress.com/2022/02/16/talkject1/" class="reg-font">Blog</a>
+                            <p class="reg-font">|</p>
+                            <a title="Code in github" target="_blank" href="https://github.com/sarahT04/scheduler"
+                                class="reg-font">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="margin-div"></div>
+                <!-- CICD -->
+                <div id="cicd" class="col-md-6 works-mt">
+                    <p class="display-5">CI/CD with Vigenere</p>
+                    <div id="cicd-desc">
+                        <p class="reg-font text-start">
+                            This project was just me trying out TDD or Test Driven Development. I first heard this from
+                            a
+                            software engineering class. The teacher was showing us its importance and he felt that it's
+                            such a shame that TDD not being emphasized a lot during his studies in universities.
+                            I got curious, and I tried out TDD with Vigenere Cipher as my playground. The program is
+                            a simple Login/Register with Vigenere Cipher as encryption, SQL as data storing, and Python
+                            as the backend.
+                            There's also an additional username and password checker/requirements ;)
+                        </p>
+                        <div class="d-flex justify-content-around">
+                            <a title="My blog documentation"
+                                href="https://sarahsradio.wordpress.com/2022/03/03/talkject3/" target="_blank"
+                                class="reg-font">Blog</a>
+                            <p class="reg-font">|</p>
+                            <a title="Code in github" target="_blank" href="https://github.com/sarahT04/TDD-Vigenere"
+                                class="reg-font">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="cicd-gif">
+                    <img src="./img/CICDgif.gif" width="100%" alt="gif of CLI implementation">
+                </div>
+                <div class="margin-div"></div>
+                <!-- Django websites -->
+                <div class="col-md-6 margin-top:5rem;">
+                    <!-- Gif -->
+                    <img src="./img/website-gifs.gif" width="100%" alt="gif of websites">
+                </div>
+                <div class="col-md-6">
+                    <p id="djangoweb" class="display-5 text-end">Django websites</p>
+                    <div>
+                        <!-- To insert description -->
+                        <p class="reg-font text-end">
+                            I first started Django because of Harvard's CS50 Web Development. Because of
+                            this online course,
+                            I learned JavaScript for the first time. I had a lot of fun time learning about Django and
+                            JS
+                            from Brian Yu.<br />
+                            My first website (that I am super proud of) would be from Project 4 of the course,
+                            where we are told to make a <a href="https://tweetyourday.herokuapp.com/"
+                                target="_blank">Twitter</a>-like website.<br />
+                            Other than that, I also made <a href="https://letmerememberbdays.herokuapp.com/"
+                                target="_blank">"Let me remember birthdays"</a> and <br />
+                            is currently working on the final project.
+                        </p>
+                    </div>
+                </div>
+                <div class="margin-div"></div>
+                <!-- Certificates -->
+                <p id="certf" class="display-5">Experiences</p>
+                <div class="col-md-6">
+                    <p class="reg-font text-justify">
+                        Currently, I am 1/4 mentor in <em>Studio Kotak Katik</em>'s coding community in which I teach
+                        the
+                        community members the intuitions behind coding, and also the technique on how to code. We are
+                        now
+                        teaching Web Mobile Development
+                        with the goal of members being able to deploy their own-coded responsive web in heroku
+                        using HTML, CSS, and Bootstrap. <br />
+                        I also joined a 3 months internship in PT. AMI where I work together with a team to
+                        build a website in a demand from the clients.
+                        <br />
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="reg-font text-justify">
+                        My coding certifications includes from some of best the institutions from 
+                        outside and inside the country, such as Dicoding, Harvard's CS50, FreeCodeCamp, and Coursera.
+                        Currently, I am taking a gap year to focus on getting new experiences. I am always energetic and
+                        eager to learn new skills, with my experiences in working as a team and individually as a lesson.
+                        Right now, I work part time as an inline skates coach in <em>Rollerskool</em>. We are
+                        one of the extracurricular provider for British School Jakarta.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center my-5">
+            <p class="display-6 main-color">Thank you.</p>
+        </div>
+    </div>
+
+    <!-- Projects link div -->
+    <div id="projectsdiv" hidden>
+        <div class="container">
+            <!-- Websites links -->
+            <h3 class="display-3 black">Links to websites</h3>
+            <ul class="my-list-group">
+                <li class="list-group-li">
+                    <a href="http://letmerememberbdays.herokuapp.com/" class="reg-font" target="_blank">Let me remember
+                        birthdays
+                        website.</a>
+                </li>
+                <li class="list-group-li">
+                    <a href="http://tweetyourday.herokuapp.com/" class="reg-font" target="_blank">Twitter-clone website
+                        using
+                        Django</a>
+                </li>
+                <li class="list-group-li">
+                    <a href="http://sarahsradio.herokuapp.com/" class="reg-font" target="_blank">Bootstrap cheat sheet.
+                        (Also used when
+                        I
+                        teaching my community)</a>
+                </li>
+            </ul>
+            <!-- Projects links -->
+            <h3 class="display-3 black">Links to projects/github stuffs</h3>
+            <p class="black pointer" onclick="openGit();">Link to Github</p>
+            <ul class="my-list-group">
+                <li class="list-group-li">
+                    <a href="https://github.com/sarahT04/scheduler" class="reg-font" target="_blank">Python CLI
+                        Scheduler.</a>
+                </li>
+                <li class="list-group-li">
+                    <a href="https://github.com/sarahT04/treasure-hunt" class="reg-font" target="_blank">Small treasure
+                        hunt game.</a>
+                </li>
+                <li class="list-group-li">
+                    <a href="https://github.com/sarahT04/TDD-Vigenere" class="reg-font" target="_blank">Trying out TDD
+                        with Vigenere Cipher.</a>
+                </li>
+            </ul>
+            <!-- Blog links -->
+            <h3 class="display-3 black">Links to blog stuffs</h3>
+            <p class="black pointer" onclick="openBlog();">Link to Wordpress blog</p>
+            <ul class="my-list-group">
+                <li class="list-group-li">
+                    <a href="https://sarahsradio.wordpress.com/category/talkject/" class="reg-font"
+                        target="_blank">Talkject, documentation blog on codes I've wrote.</a>
+                </li>
+                <li class="list-group-li">
+                    <a href="https://sarahsradio.wordpress.com/category/chinese/" class="reg-font" target="_blank">Some
+                        stuffs I wrote in Chinese.</a>
+                </li>
+                <li class="list-group-li">
+                    <a href=https://sarahsradio.wordpress.com/category/experience/ class="reg-font"
+                        target="_blank">Things I've participated in.</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Gallery div -->
+    <div id="gallerydiv" class="container" hidden>
+        <blockquote class="blockquote">
+            <p class="mb-0 main-color">A picture filled with thousands of words, filled with the best memories. </p>
+        </blockquote>
+        <div class="grid-container">
+            <div>
+                <a href='./img/gallery pics/cool Josh.jpg' data-lightbox="cool Josh" class='grid-item grid-item-1'
+                    data-title='"Almighty Josh!"' data-alt="picture of josh"><img src="./img/gallery pics/cool Josh.jpg"
+                        alt="Cool Josh">
+                    <p>"Almighty Josh!"</p>
+                </a>
+            </div>
+            <div>
+                <a href='./img/gallery pics/in food train.jpg' data-lightbox="in food train"
+                    class='grid-item grid-item-2' data-title='"Train Food Wagon."' data-alt="in food train"><img
+                        src='./img/gallery pics/in food train.jpg' alt="in food train">
+                    <p>"Train Food Wagon."</p>
+                </a>
+            </div>
+            <div>
+                <a href='./img/gallery pics/melancholy umbrella.jpg' data-lightbox="melancholy umbrella"
+                    class='grid-item grid-item-2' data-title='"Melancholy umbrella."'
+                    data-alt="picture of melancholy umbrella"><img src='./img/gallery pics/melancholy umbrella.jpg'
+                        alt='"Melancholy umbrella."'>
+                    <p>"Melancholy umbrella."</p>
+                </a>
+            </div>
+            <div>
+                <a href='./img/gallery pics/pretty view.jpg' data-lightbox="pretty view" class='grid-item grid-item-4'
+                    data-title='"Ordinary day in village."' data-alt="picture of pretty view"><img
+                        src='./img/gallery pics/pretty view.jpg' alt='"Ordinary day in village."'>
+                    <p>"Ordinary day in village."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-5' href='./img/gallery pics/cate.jpg' data-lightbox="cate"
+                    data-title='"Oh, cate."' data-alt="picture of cate"><img src='./img/gallery pics/cate.jpg'
+                        alt='"Oh, cate."'>
+                    <p>"Oh, cate."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-6' href='./img/gallery pics/sign sunny.jpg' data-lightbox="sign sunny"
+                    data-title='"Looking through."' data-alt="picture of sign sunny"><img
+                        src='./img/gallery pics/sign sunny.jpg' alt="Looking through.">
+                    <p>"Looking through."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-7' href='./img/gallery pics/world Josh.jpg' data-lightbox="world Josh"
+                    data-title='"Conquering the world."' data-alt="picture of world Josh"><img
+                        src='./img/gallery pics/world Josh.jpg' alt="Conquering the world.">
+                    <p>"Conquering the world."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-8' href='./img/gallery pics/train guard.jpg' data-lightbox="train guard"
+                    data-title='"Looking for something?"' data-alt="picture of train guard"><img
+                        src='./img/gallery pics/train guard.jpg' alt="Looking for something?">
+                    <p>"Looking for something?"</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-9' href='./img/gallery pics/train station melancholy.jpg'
+                    data-lightbox="train station melancholy" data-title='"Rise and shine!"'
+                    data-alt="picture of train station melancholy"><img
+                        src='./img/gallery pics/train station melancholy.jpg' alt="Rise and shine!">
+                    <p>"Rise and shine!"</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-10' href='./img/gallery pics/pretty view senja.jpg'
+                    data-lightbox="pretty view senja" data-title='"Time to go home."'
+                    data-alt="picture of pretty view senja"><img src='./img/gallery pics/pretty view senja.jpg'
+                        alt="Time to go home.">
+                    <p>"Time to go home."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-11' href='./img/gallery pics/heil.jpg' data-lightbox="heil"
+                    data-title='"Heil?"' data-alt="picture of heil cat"><img src='./img/gallery pics/heil.jpg'
+                        alt="Heil?">
+                    <p>"Heil?"</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-12' href='./img/gallery pics/sunny day.jpg' data-lightbox="sunny day"
+                    data-title='"Oh sunny day."' data-alt="picture of sunny day"><img
+                        src=' ./img/gallery pics/sunny day.jpg' alt="Oh sunny day.">
+                    <p>"Oh sunny day."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-12' href='./img/gallery pics/blu skye.jpg' data-lightbox="blu skye"
+                    data-title='"The blue, blue sky."' data-alt="picture of blu skye"><img
+                        src=' ./img/gallery pics/blu skye.jpg' alt="The blue, blue sky.">
+                    <p>"The blue, blue sky."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-12' href='./img/gallery pics/foggy mountain.jpg' data-lightbox="foggy mountain"
+                    data-title='"The green always watches."' data-alt="picture of foggy mountain"><img
+                        src=' ./img/gallery pics/foggy mountain.jpg' alt="The green always watches.">
+                    <p>"The green always watches."</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-12' href='./img/gallery pics/lone building.jpg' data-lightbox="lone building"
+                    data-title='"Hows the weather, bro?"' data-alt="picture of lone building"><img
+                        src=' ./img/gallery pics/lone building.jpg' alt="Hows the weather, bro?">
+                    <p>"Hows the weather, bro?"</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-12' href='./img/gallery pics/sunshine road.jpg' data-lightbox="sunshine road.jpg"
+                    data-title='"Good morning, sunshine! The earth says, hello!"' data-alt="picture of sunshine road.jpg"><img
+                        src=' ./img/gallery pics/sunshine road.jpg' alt="Good morning, sunshine! The earth says, hello!">
+                    <p>"Good morning, sunshine! The earth says, hello!"</p>
+                </a>
+            </div>
+            <div>
+                <a class='grid-item grid-item-12' href='./img/gallery pics/tunjungan.jpg' data-lightbox="tunjungan.jpg"
+                    data-title='"In the glimpse of grandeur."' data-alt="picture of tunjungan.jpg"><img
+                        src=' ./img/gallery pics/tunjungan.jpg' alt="In the glimpse of grandeur.">
+                    <p>"In the glimpse of grandeur."</p>
+                </a>
+            </div>
+        </div>
+        <footer class="blockquote-footer mt-3">All taken with Huawei P20 pro</footer>
+    </div>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted mx-3">&copy; 2022, Sarah</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li id="github" class="mx-2 pointer" title="Wordpress blog">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                    <path fill="#ff6a33"
+                        d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z" />
+                </svg>
+            </li>
+            <li id="wordpress" class="mx-2 pointer" title="Github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                    <path fill="#ff6a33"
+                        d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-4.702 9.905l2.456 6.728c-1.718-.835-2.901-2.595-2.901-4.633 0-.746.161-1.455.445-2.095zm8.177 1.836c0-.637-.229-1.077-.425-1.42-.26-.424-.505-.783-.505-1.208 0-.489.373-.94.932-.909-.916-.839-2.137-1.351-3.477-1.351-1.798 0-3.38.922-4.301 2.319.313.011.745.017 1.703-.059.277-.016.31.392.034.424 0 0-.28.032-.591.049l1.875 5.575 1.127-3.378-.802-2.197-.54-.049c-.278-.017-.244-.44.032-.424 1.106.085 1.635.086 2.728 0 .278-.016.311.392.032.424 0 0-.278.032-.588.049l1.859 5.532.515-1.715c.223-.711.392-1.223.392-1.662zm-3.384.709l-1.545 4.488c.461.135.948.209 1.454.209.6 0 1.175-.104 1.709-.291-.042-.07-1.59-4.329-1.618-4.406zm4.426-2.919c.112.825-.049 1.604-.356 2.373l-1.573 4.545c1.53-.892 2.561-2.55 2.561-4.449-.002-.895-.23-1.736-.632-2.469zm1.483 2.469c0 3.309-2.692 6-6 6s-6-2.691-6-6 2.692-6 6-6 6 2.691 6 6zm-.275 0c0-3.156-2.568-5.725-5.725-5.725s-5.725 2.568-5.725 5.725c0 3.157 2.568 5.726 5.725 5.726s5.725-2.569 5.725-5.726z" />
+                </svg>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
