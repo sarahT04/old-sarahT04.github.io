@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
 
+.unicode-span {
+    font-size: calc(1rem + 2.5vw);
+}
+
+.padding-top {
+    padding-top: calc(1rem + 2.5vw + 45px);
+}
+
+.unicode-span-p {
+    font-size: 21px;
+    margin-left: 10px;
+}
+
 .nav-box {
     border: 1px solid lightgrey;
     margin: 2rem;
